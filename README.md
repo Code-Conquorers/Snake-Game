@@ -30,12 +30,12 @@ To run the Snake game on your local machine, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Code-Conquorers/snakegame.git
+    git clone https://github.com/Code-Conquorers/Snake-Game/blob/8321748e4a5e75d259ad7d394e5ffccfe1fbf08e/snakegame.cpp
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd snake-game
+    cd snakegame
     ```
 
 3. Compile the C++ code:
