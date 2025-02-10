@@ -19,12 +19,12 @@ This is a console-based Snake game written in C++ that simulates the well-known 
 
 ## Installation
 Libraries used :-
-#include <iostream>
+//#include <iostream>
 
 #include <vector>
 
-#include <deque
-             
+//#include <deque
+             //
 #include <cstdlib>
 
 #include <ctime>
