@@ -1,15 +1,12 @@
 # Snake Game (C++)
 
 A simple implementation of the classic Snake game using C++ and a console-based interface. The snake moves around the screen, eats fruit to grow, and avoids colliding with the walls or itself.
-
+Window OS used.
 ## Table of Contents
 - [Project Description](#project-description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Features](#features)
-- [Screenshots](#screenshots)
 
 ## Project Description
 This is a console-based Snake game written in C++ that simulates the well-known game where the player controls a snake that moves around the screen. The goal is to collect fruit (denoted by `F`), causing the snake to grow in size while avoiding collisions with the screen boundaries or its own tail.
@@ -21,12 +18,20 @@ This is a console-based Snake game written in C++ that simulates the well-known 
 - The game ends when the snake collides with a wall or itself.
 
 ## Installation
+Libraries used :-
+#include <iostream>
+#include <vector>
+#include <deque>
+#include <cstdlib>
+#include <ctime>
+#include <conio.h>   
+#include <windows.h> 
 
 To run the Snake game on your local machine, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Code-Conquorers/snake-game.git
+    git clone https://github.com/Code-Conquorers/snakegame.git
     ```
 
 2. Navigate to the project directory:
@@ -36,7 +41,8 @@ To run the Snake game on your local machine, follow these steps:
 
 3. Compile the C++ code:
     ```bash
-    g++ -o snake main.cpp
+    g++ snake.cpp -o snake.exe
+    .\snake.exe
     ```
 
 4. Run the game:
