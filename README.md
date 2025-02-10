@@ -18,20 +18,13 @@ This is a console-based Snake game written in C++ that simulates the well-known 
 - The game ends when the snake collides with a wall or itself.
 
 ## Installation
-Libraries used :-
-//#include <iostream>
-
-#include <vector>
-
-//#include <deque
-             //
-#include <cstdlib>
-
-#include <ctime>
-
-#include <conio.h>  
-
-#include <windows.h> 
+1. **`<iostream>`** – Used for input and output operations (printing to the console).
+2. **`<vector>`** – Used to store the tail of the snake and manage dynamic arrays.
+3. **`<deque>`** – Used for managing the snake’s tail more efficiently, allowing elements to be added to both ends.
+4. **`<cstdlib>`** – Provides functions like `rand()` for generating random numbers (used for generating the fruit's position).
+5. **`<ctime>`** – Used for seeding the random number generator using the current time.
+6. **`<conio.h>`** – Provides functions like `_kbhit()` and `_getch()` for detecting user input without waiting for Enter (used to control snake movement).
+7. **`<windows.h>`** – Used to control the sleep interval (game speed) and clear the console screen between frames (via the `Sleep()` function). 
 
 To run the Snake game on your local machine, follow these steps:
 
